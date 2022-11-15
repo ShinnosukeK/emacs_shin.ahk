@@ -199,7 +199,38 @@ isSpace = 0
   Else
     Send ^{Right}
   Return
+  
+;
+; <alt>v
+; scroll up
+;
+!v::
+  If is_target()
+    Send %A_ThisHotkey%
+  Else
+  {
+	If isSpace
+		Send +{PgUp}
+	Else
+		Send {PgUp}
+  }
+  Return
 
+;
+; <ctrl>v
+; scroll down
+;
+^v::
+  If is_target()
+    Send %A_ThisHotkey%
+  Else
+  {
+	If isSpace
+		Send +{PgDn}
+	Else
+		Send {PgDn}
+  }
+  Return
 
 ;
 ; <ctrl>w

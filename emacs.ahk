@@ -199,12 +199,12 @@ isSpace = 0
   Else
     Send ^{Right}
   Return
-  
+
 ;
-; <alt>v
+; <ctrl><shift>p
 ; scroll up
 ;
-!v::
+^+p::
   If is_target()
     Send %A_ThisHotkey%
   Else
@@ -217,10 +217,10 @@ isSpace = 0
   Return
 
 ;
-; <ctrl>v
+; <ctrl><shift>n
 ; scroll down
 ;
-^v::
+^+n::
   If is_target()
     Send %A_ThisHotkey%
   Else

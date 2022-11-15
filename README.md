@@ -1,7 +1,8 @@
 # emacs_shin.ahk
 Referred to usi3/emacs.ahk and lintaro-jp/gtk-emacs-theme-like.ahk
-and modified as I like.
 
+This setting does not affect either C-c(copy) nor C-v(paste).
+That is why C-v and M-v are not for scrolling. Instead, C-Shift-n and C-Shift-p are assigned.
 
 ## Supported keybindings
 <table>
@@ -60,7 +61,15 @@ and modified as I like.
   <td>backward-char</td>
 </tr>
 <tr>
-  <td>C-Alt-a</td>
+  <td>C-Shift-a</td>
   <td>select all</td>
+</tr>
+<tr>
+  <td>C-Shift-p</td>
+  <td>scroll up</td>
+</tr>
+<tr>
+  <td>C-Shift-n</td>
+  <td>scroll down</td>
 </tr>
 </table>

@@ -1,5 +1,6 @@
-# emacs.ahk 
-This tiny script allows you to use the emacs-like key bindings on Windows, which is written in AutoHotkey (AHK) language. The maintainer has used this script since 2007 and has verified that it works effectively for various kinds of applications.
+# emacs_shin.ahk
+fork元のusi3/emacs.ahkと，lintaro-jp/gtk-emacs-theme-like.ahkを参考にしています。
+
 
 ## Supported keybindings
 <table>
@@ -8,112 +9,55 @@ This tiny script allows you to use the emacs-like key bindings on Windows, which
     <th>Emacs Lisp Function</th>
   </tr>
 <tr>
-<td>C-Space</td>
-<td>set-mark-command</td>
+  <td>C-Space</td>
+  <td>activation</td>
+</tr>
+  <td>C-d</td>
+  <td>delete-char</td>
 </tr>
 <tr>
-<td>C-@</td>
-<td>set-mark-command</td>
+  <td>C-k</td>
+  <td>kill-line</td>
 </tr>
 <tr>
-<td>C-x C-f</td>
-<td>find-file</td>
+  <td>C-r</td>
+  <td>find</td>
 </tr>
 <tr>
-<td>C-x C-s</td>
-<td>save-buffer</td>
+  <td>C-w</td>
+  <td>kill-region</td>
 </tr>
 <tr>
-<td>C-x C-c</td>
-<td>kill-emacs</td>
+  <td>C-y</td>
+  <td>yank</td>
 </tr>
 <tr>
-<td>C-d</td>
-<td>delete-char</td>
+  <td>C-a</td>
+  <td>move-beginning-of-line</td>
 </tr>
 <tr>
-<td>C-h</td>
-<td>delete-backward-char</td>
+  <td>C-e</td>
+  <td>move-end-of-line</td>
 </tr>
 <tr>
-<td>C-k</td>
-<td>kill-line</td>
+  <td>C-p</td>
+  <td>previous-line</td>
 </tr>
 <tr>
-<td>C-o</td>
-<td>open-line</td>
+  <td>C-n</td>
+  <td>next-line</td>
 </tr>
 <tr>
-<td>C-g</td>
-<td>quit</td>
+  <td>C-f</td>
+  <td>forward-char</td>
 </tr>
 <tr>
-<td>C-j</td>
-<td>newline-and-indent</td>
+  <td>C-b</td>
+  <td>backward-char</td>
 </tr>
 <tr>
-<td>C-m</td>
-<td>newline</td>
-</tr>
-<tr>
-<td>C-i</td>
-<td>indent-for-tab-command</td>
-</tr>
-<tr>
-<td>C-s</td>
-<td>isearch-forward</td>
-</tr>
-<tr>
-<td>C-r</td>
-<td>isearch-backward</td>
-</tr>
-<tr>
-<td>C-w</td>
-<td>kill-region</td>
-</tr>
-<tr>
-<td>M-w</td>
-<td>kill-ring-save</td>
-</tr>
-<tr>
-<td>C-y</td>
-<td>yank</td>
-</tr>
-<tr>
-<td>C-/</td>
-<td>undo</td>
-</tr>
-<tr>
-<td>C-a</td>
-<td>move-beginning-of-line</td>
-</tr>
-<tr>
-<td>C-e</td>
-<td>move-end-of-line</td>
-</tr>
-<tr>
-<td>C-p</td>
-<td>previous-line</td>
-</tr>
-<tr>
-<td>C-n</td>
-<td>next-line</td>
-</tr>
-<tr>
-<td>C-f</td>
-<td>forward-char</td>
-</tr>
-<tr>
-<td>C-b</td>
-<td>backward-char</td>
-</tr>
-<tr>
-<td>C-v</td>
-<td>scroll-down</td>
-</tr>
-<tr>
-<td>M-v</td>
-<td>scroll-up</td>
+  <td>C-Alt-a</td>
+  <td>select all</td>
 </tr>
 </table>
 

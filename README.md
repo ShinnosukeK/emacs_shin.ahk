@@ -1,12 +1,13 @@
 # emacs_shin.ahk
-fork元のusi3/emacs.ahkと，lintaro-jp/gtk-emacs-theme-like.ahkを参考にしています。
+Referred to usi3/emacs.ahk and lintaro-jp/gtk-emacs-theme-like.ahk
+and modified as I like.
 
 
 ## Supported keybindings
 <table>
   <tr>
     <th>Keybinding</th>
-    <th>Emacs Lisp Function</th>
+    <th>Function</th>
   </tr>
 <tr>
   <td>C-Space</td>
@@ -17,8 +18,11 @@ fork元のusi3/emacs.ahkと，lintaro-jp/gtk-emacs-theme-like.ahkを参考にし
 </tr>
 <tr>
   <td>C-k</td>
-  <td>kill-line</td>
+  <td>kill-line-forward</td>
 </tr>
+<tr>
+  <td>C-u</td>
+  <td>kill-line-backward</td>
 <tr>
   <td>C-r</td>
   <td>find</td>
@@ -60,11 +64,3 @@ fork元のusi3/emacs.ahkと，lintaro-jp/gtk-emacs-theme-like.ahkを参考にし
   <td>select all</td>
 </tr>
 </table>
-
-
-## Some webpages that introduced this script
-* [AutoHotkeyでemacs風キーバインド - torutkの日記](http://d.hatena.ne.jp/torutk/20101009/p2)
-* [オダろぐ : Emacs＞AutoHotKey の Emacsモードを使うことにした](http://blog.livedoor.jp/odaxsen/archives/1546840.html)
-* [AutoHotkey &laquo; sea side she side](http://www.a10i.jp/?tag=autohotkey)
-* [NTEmacs @ ウィキ - Windows の操作を emacs のキーバインドで行う設定 （AutoHotKey版）](http://www49.atwiki.jp/ntemacs/pages/20.html)
-    * Customized by 2cher

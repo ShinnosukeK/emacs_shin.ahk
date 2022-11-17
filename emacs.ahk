@@ -122,17 +122,6 @@ isSpace = 0
 		Send	{Down}
   }  
   Return
-
-;
-; <ctrl>h
-; backspace
-;
-^h::
-  If is target()
-    Send %A_ThisHotkey%
-  Else
-    Send {BS}
-  Return
   
 ;
 ; <ctrl>d

@@ -14,6 +14,10 @@ That is why C-v and M-v are not for scrolling. Instead, C-Shift-n and C-Shift-p 
   <td>C-Space</td>
   <td>activation</td>
 </tr>
+<tr>
+  <td>C-h</td>
+  <td>backspace</td>
+</tr>
   <td>C-d</td>
   <td>delete-char</td>
 </tr>
